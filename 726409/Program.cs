@@ -10,6 +10,14 @@ namespace _726409
     {
         static void Main(string[] args)
         {
+            int sum = 0;
+            int i = 2;
+            while(i<=7)
+            {
+                sum += i;
+                i++;
+            }
+            Console.WriteLine("{0}",sum);
         }
     }
 }
